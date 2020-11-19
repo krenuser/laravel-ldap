@@ -1,10 +1,10 @@
 <?php
 
-namespace Krenor\LdapAuth\Objects;
+namespace KrenUser\LdapAuth\Objects;
 
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
-use Krenor\LdapAuth\Contracts\UserInterface as LdapUserContract;
+use KrenUser\LdapAuth\Contracts\UserInterface as LdapUserContract;
 use Illuminate\Foundation\Auth\Access\Authorizable;
 
 class LdapUser implements UserContract, AuthorizableContract, LdapUserContract

@@ -1,6 +1,6 @@
 <?php
 
-namespace Krenor\LdapAuth\Connections;
+namespace KrenUser\LdapAuth\Connections;
 
 abstract class DomainController
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Krenor\LdapAuth\Connections;
+namespace KrenUser\LdapAuth\Connections;
 
 class RebindDomainController extends DomainController
 {

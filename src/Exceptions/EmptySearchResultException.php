@@ -1,6 +1,6 @@
 <?php
 
-namespace Krenor\LdapAuth\Exceptions;
+namespace KrenUser\LdapAuth\Exceptions;
 
 use Exception;
 

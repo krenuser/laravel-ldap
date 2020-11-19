@@ -1,6 +1,6 @@
 <?php
 
-namespace Krenor\LdapAuth\Contracts;
+namespace KrenUser\LdapAuth\Contracts;
 
 interface ConnectionInterface
 {

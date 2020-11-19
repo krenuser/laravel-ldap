@@ -1,10 +1,10 @@
 <?php
 
-namespace Krenor\LdapAuth;
+namespace KrenUser\LdapAuth;
 
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Krenor\LdapAuth\Objects\Ldap;
+use KrenUser\LdapAuth\Objects\Ldap;
 
 class LdapAuthUserProvider implements UserProvider
 {
@@ -73,7 +73,7 @@ class LdapAuthUserProvider implements UserProvider
      * Retrieve a user by the given credentials.
      *
      * @param  array $credentials
-     * @return \Krenor\LdapAuth\Objects\LdapUser|null
+     * @return \KrenUser\LdapAuth\Objects\LdapUser|null
      */
     public function retrieveByCredentials(array $credentials)
     {

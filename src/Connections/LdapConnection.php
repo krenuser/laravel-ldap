@@ -1,11 +1,11 @@
 <?php
 
-namespace Krenor\LdapAuth\Connections;
+namespace KrenUser\LdapAuth\Connections;
 
 use ErrorException;
-use Krenor\LdapAuth\Contracts\ConnectionInterface;
-use Krenor\LdapAuth\Contracts\DomainController;
-use Krenor\LdapAuth\Exceptions\ConnectionException;
+use KrenUser\LdapAuth\Contracts\ConnectionInterface;
+use KrenUser\LdapAuth\Connections\DomainController;
+use KrenUser\LdapAuth\Exceptions\ConnectionException;
 
 class LdapConnection implements ConnectionInterface
 {
@@ -199,7 +199,7 @@ class LdapConnection implements ConnectionInterface
      *
      * @param array $domain_controller
      *
-     * @return \Krenor\LdapAuth\Connections\DomainController
+     * @return \KrenUser\LdapAuth\Connections\DomainController
      */
     private function getDomainControllerStrategy(array $domain_controller)
     {

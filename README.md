@@ -57,7 +57,7 @@ Update your `config/auth.php` to use **ldap** as authentication and the **LdapUs
 
 	'ldap-users' => [
 		'driver' => 'ldap',
-		'model'  => \Krenor\LdapAuth\Objects\LdapUser::class,
+		'model'  => \KrenUser\LdapAuth\Objects\LdapUser::class,
 	],
 ]
 ```

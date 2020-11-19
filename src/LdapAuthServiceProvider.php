@@ -1,11 +1,11 @@
 <?php
 
-namespace Krenor\LdapAuth;
+namespace KrenUser\LdapAuth;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
-use Krenor\LdapAuth\Exceptions\MissingConfigurationException;
-use Krenor\LdapAuth\Objects\Ldap;
+use KrenUser\LdapAuth\Exceptions\MissingConfigurationException;
+use KrenUser\LdapAuth\Objects\Ldap;
 
 class LdapAuthServiceProvider extends ServiceProvider
 {

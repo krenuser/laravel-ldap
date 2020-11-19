@@ -3,30 +3,43 @@
 
 # ldap-auth
 
-Very basic **READ ONLY** LDAP authentication driver for [Laravel 5.2+](http://laravel.com/)  
+Very basic **READ ONLY** LDAP authentication driver for [Laravel 6.x+](http://laravel.com/)  
 
-Look [**HERE**](https://github.com/krenor/ldap-auth/tree/1.1.0) for the package for Laravel 5.1.  
-However, only the 5.2 Version will be maintained.
+Based on [Krenor's](https://github.com/krenor/) [ldap-auth](https://github.com/krenor/ldap-auth) repository.
 
 ## Installation
 
 ### Step 1: Install Through Composer
 
+(`composer require` installation option is not supported yet &ndash; use VCS Repositories option instead)
+
 Add to your root composer.json and install with `composer install` or `composer update`
 
     {
       require: {
-        "krenor/ldap-auth": "~2.1"
+        "krenuser/ldap-auth": "*"
       }
     }
 
-or use `composer require krenor/ldap-auth` in your console.
+or use `composer require krenuser/ldap-auth` in your console.
+
+You can use VCS Repositories option to install this package:
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/krenuser/ldap-auth"
+        }
+    ],
+    "require": {
+        "krenuser/ldap-auth": "*"
+    }
 
 ### Step 2: Add the Service Provider
 
 Modify your `config/app.php` file and add the service provider to the providers array.
 
-    Krenor\LdapAuth\LdapAuthServiceProvider::class,
+    KrenUser\LdapAuth\LdapAuthServiceProvider::class,
     
 ### Step 3: Publish the configuration file by running:
 

@@ -23,7 +23,7 @@
   ],
   "require": {
     "laravel/framework": ">=v6.10.0",
-    "php": ">=7.2",
+    "php": ">=7.1",
     "ext-ldap": "*"
   },
   "require-dev": {

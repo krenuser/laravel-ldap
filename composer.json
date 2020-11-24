@@ -4,7 +4,7 @@
   "keywords": [
     "laravel 6.x", "laravel 7.x", "laravel", "laravel auth", "laravel authentication",
     "ldap", "ldap authentication", "active directory",
-    "krenor"
+    "krenor", "krenuser"
   ],
   "license": "MIT",
   "authors": [
@@ -17,8 +17,7 @@
     {
         "name": "Ilja K.",
         "email": "krenuser@yandex.ru",
-        "role": "Forker",
-        "homepage": "https://www.google.ru/"
+        "role": "Forker"
     }
   ],
   "require": {

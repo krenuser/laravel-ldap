@@ -7,6 +7,8 @@ Very basic **READ ONLY** LDAP authentication driver for [Laravel 6.x+](http://la
 
 Based on [Krenor's](https://github.com/krenor/) [ldap-auth](https://github.com/krenor/ldap-auth) repository.
 
+Tested with Laravel v7.29.
+
 ## Installation
 
 ### Step 1: Install Through Composer

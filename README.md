@@ -11,8 +11,6 @@ Based on [Krenor's](https://github.com/krenor/) [ldap-auth](https://github.com/k
 
 ### Step 1: Install Through Composer
 
-(`composer require` installation option is not supported yet &ndash; use VCS Repositories option instead)
-
 Add to your root composer.json and install with `composer install` or `composer update`
 
     {

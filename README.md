@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://img.shields.io/packagist/v/krenor/ldap-auth.svg?style=flat-square)](https://packagist.org/packages/krenor/ldap-auth)
-[![License](https://img.shields.io/packagist/l/krenor/ldap-auth.svg?style=flat-square)](https://packagist.org/packages/krenor/ldap-auth)
+[![Latest Stable Version](https://img.shields.io/packagist/v/krenuser/ldap-auth.svg?style=flat-square)](https://packagist.org/packages/krenuser/ldap-auth)
+[![License](https://img.shields.io/packagist/l/krenuser/ldap-auth.svg?style=flat-square)](https://packagist.org/packages/krenuser/ldap-auth)
 
 # ldap-auth
 

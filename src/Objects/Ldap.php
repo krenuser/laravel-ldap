@@ -121,7 +121,7 @@ class Ldap
             ( $fields ?: $this->search_fields )
         );
 
-        if (count($results) > 0) {
+        if(is_resource($results)) {
             $entry = $this->ldap->entry($results);
 
             // Returning a single LDAP entry

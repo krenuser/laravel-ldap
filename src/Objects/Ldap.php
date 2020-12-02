@@ -72,7 +72,8 @@ class Ldap
         $config = $this->bindConfig($options);
 
         // Build Common Name from Config file and append to base DN
-        $this->admin_user = 'CN=' . $this->admin_user . ',' . $this->base_dn;
+        // fails with "ldap_search(): Search: Operations error"
+        //$this->admin_user = 'CN=' . $this->admin_user . ',' . $this->base_dn;
 
         $this->ldap = new LdapConnection($config);
         $this->connect($this->ldap);

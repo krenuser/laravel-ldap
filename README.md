@@ -9,6 +9,7 @@ Based on [Krenor's](https://github.com/krenor/) [ldap-auth](https://github.com/k
 
 Tested with Laravel v7.29.
 
+
 ## Installation
 
 ### Step 1: Install Through Composer
@@ -21,19 +22,7 @@ Add to your root composer.json and install with `composer install` or `composer 
       }
     }
 
-or use `composer require krenuser/ldap-auth` in your console.
-
-You can use VCS Repositories option to install this package:
-
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/krenuser/ldap-auth"
-        }
-    ],
-    "require": {
-        "krenuser/ldap-auth": "*"
-    }
+or use `composer require krenuser/laravel-ldap` in your console.
 
 ### Step 2: Add the Service Provider
 

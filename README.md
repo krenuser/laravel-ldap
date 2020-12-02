@@ -18,11 +18,11 @@ Add to your root composer.json and install with `composer install` or `composer 
 
     {
       require: {
-        "krenuser/laravel-ldap": "*"
+        "krenuser/ldap-auth": "*"
       }
     }
 
-or use `composer require krenuser/laravel-ldap` in your console.
+or use `composer require krenuser/ldap-auth` in your console.
 
 ### Step 2: Add the Service Provider
 

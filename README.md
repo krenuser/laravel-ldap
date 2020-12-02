@@ -18,7 +18,7 @@ Add to your root composer.json and install with `composer install` or `composer 
 
     {
       require: {
-        "krenuser/ldap-auth": "*"
+        "krenuser/laravel-ldap": "*"
       }
     }
 

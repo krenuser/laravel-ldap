@@ -32,5 +32,13 @@
     "psr-4": {
       "KrenUser\\LdapAuth\\": "src/"
     }
-  }
+  },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KrenUser\\LdapAuth\\LdapAuthServiceProvider"
+            ]
+        }
+
+    }
 }

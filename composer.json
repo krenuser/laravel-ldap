@@ -1,5 +1,5 @@
 {
-  "name": "krenuser/laravel-ldap",
+  "name": "krenuser/ldap-auth",
   "description": "Basic readonly authentication via LDAP for Laravel 6+",
   "keywords": [
     "laravel 6.x", "laravel 7.x", "laravel", "laravel auth", "laravel authentication",
